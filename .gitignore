@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Игнорировать папку с настройками PyCharm
+.idea/
+
 # C extensions
 *.so
 
