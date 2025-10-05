@@ -1,6 +1,7 @@
-numbers = []
-for i in range(4):
-    numbers.append(int(input("Enter number\n")))
-sum1 = numbers[0] + numbers[1]
-sum2 = numbers[2] + numbers[3]
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a number: "))
+num3 = int(input("Enter a number: "))
+num4 = int(input("Enter a number: "))
+sum1 = num1 + num2
+sum2 = num3 + num4
 print(round(sum1 / sum2, 2))
